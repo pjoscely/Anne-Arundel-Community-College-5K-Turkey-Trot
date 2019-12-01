@@ -63,19 +63,4 @@ print(conv)
 temp<-time.format(time.in.secs)
 names(time.in.secs)<-temp
 print(time.in.secs)
-
-
-hist(time.in.secs, main="AACC 5K 11/27/19 Turkey Trot Times",xlim = c(1000,4100), 
-     xlab="Seconds (bins = 60)",
-     ylab = "Number of Runners",
-     breaks=c(seq(1000,4100,60)), 
-     col = c("blue", "blue","blue", "red","blue",
-                                          "blue","blue","blue",
-                                          "blue","blue","blue",
-                                          "blue","blue","blue",
-                                          "blue","blue","blue",
-                                          "blue","blue","blue",
-                                          "blue","blue","blue",
-                                          "blue","blue","blue",
-                                          "blue","blue"))
 #End of file
