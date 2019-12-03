@@ -1,1 +1,1 @@
-Various completed races with R code analysis 
+Various completed races/competitions with R code analysis 
